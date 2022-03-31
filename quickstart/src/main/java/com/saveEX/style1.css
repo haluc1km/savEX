@@ -1,0 +1,71 @@
+.root {
+    -fx-background-color: #222;
+}
+
+.VBox {
+    -fx-background-color: linear-gradient(to bottom right, #FF7F50, #6A5ACD);
+    -fx-background-radius: 15 15 25 25;
+}
+.scroll-pane > .viewport {
+    -fx-background-color: #222;
+ }
+ .scroll-pane{
+    -fx-background-color:transparent;
+ }
+ #text1{
+    -fx-background-color: #222;
+
+ }
+ #liveText{
+    -fx-background-color: #222;
+
+ }
+
+.Pane {
+    -fx-background-color: #ff0a0a25;
+    -fx-background-radius: 15;
+}
+.button{
+    /*
+    -fx-background-color: rgba(160, 135, 188, 1);
+    -fx-background-radius: 15;
+    -fx-background-radius: 8,7,6;
+    -fx-background-insets: 0,1,2;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    */
+    -fx-background-color: 
+    #c3c4c4,
+    linear-gradient(#d6d6d6 50%, white 100%),
+    radial-gradient(center 50% -40%, radius 200%, #e6e6e6 45%, rgba(230,230,230,0) 50%);
+-fx-background-radius: 30;
+-fx-background-insets: 0,1,1;
+-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 3, 0.0 , 0 , 1 );
+}
+.button:pressed:hover {
+    -fx-scale-y: 1;
+    -fx-scale-x: 1;
+}
+
+.button:hover {
+    -fx-background-color: #ababab,
+    linear-gradient(#bdbdbd 50%, #dcdcdc 100%),
+    radial-gradient(center 50% -40%, radius 200%, #cdcdcd 45%, rgba(205,205,205,0) 50%);
+    -fx-scale-y: 1.1;
+    -fx-scale-x: 1.1;
+}
+#text1 > Text{
+    -fx-fill: white;
+    -fx-font-size : 16px;
+}
+#liveText > Text{
+    -fx-fill: white;
+    -fx-font-size : 16px;
+}
+.text-input {
+    -fx-prompt-text-fill: rgba(0,0,0,0.5);
+}
+
+.text-input:focused {
+    -fx-prompt-text-fill: transparent;
+}

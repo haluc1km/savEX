@@ -1,0 +1,9 @@
+--module-path
+"C:\\Users\\kenda\\Downloads\\javafx-sdk-17.0.2\\lib"
+--add-modules
+javafx.controls,javafx.fxml
+-Dfile.encoding=UTF-8
+-classpath
+"C:\\Users\\kenda\\Documents\\quickstart\\target\\classes;C:\\Users\\kenda\\Downloads\\javafx-sdk-17.0.2\\lib\\javafx.base.jar;C:\\Users\\kenda\\Downloads\\javafx-sdk-17.0.2\\lib\\javafx.controls.jar;C:\\Users\\kenda\\Downloads\\javafx-sdk-17.0.2\\lib\\javafx.fxml.jar;C:\\Users\\kenda\\Downloads\\javafx-sdk-17.0.2\\lib\\javafx.graphics.jar;C:\\Users\\kenda\\Downloads\\javafx-sdk-17.0.2\\lib\\javafx.media.jar;C:\\Users\\kenda\\Downloads\\javafx-sdk-17.0.2\\lib\\javafx.swing.jar;C:\\Users\\kenda\\Downloads\\javafx-sdk-17.0.2\\lib\\javafx.web.jar;C:\\Users\\kenda\\Downloads\\javafx-sdk-17.0.2\\lib\\javafx-swt.jar;C:\\Users\\kenda\\.m2\\repository\\com\\microsoft\\cognitiveservices\\speech\\client-sdk\\1.19.0\\client-sdk-1.19.0.jar;C:\\Users\\kenda\\.m2\\repository\\org\\openjfx\\javafx-controls\\17-ea+11\\javafx-controls-17-ea+11.jar;C:\\Users\\kenda\\.m2\\repository\\org\\openjfx\\javafx-controls\\17-ea+11\\javafx-controls-17-ea+11-win.jar;C:\\Users\\kenda\\.m2\\repository\\org\\openjfx\\javafx-graphics\\17-ea+11\\javafx-graphics-17-ea+11.jar;C:\\Users\\kenda\\.m2\\repository\\org\\openjfx\\javafx-graphics\\17-ea+11\\javafx-graphics-17-ea+11-win.jar;C:\\Users\\kenda\\.m2\\repository\\org\\openjfx\\javafx-base\\17-ea+11\\javafx-base-17-ea+11.jar;C:\\Users\\kenda\\.m2\\repository\\org\\openjfx\\javafx-base\\17-ea+11\\javafx-base-17-ea+11-win.jar;C:\\Users\\kenda\\.m2\\repository\\org\\openjfx\\javafx-fxml\\17-ea+11\\javafx-fxml-17-ea+11.jar;C:\\Users\\kenda\\.m2\\repository\\org\\openjfx\\javafx-fxml\\17-ea+11\\javafx-fxml-17-ea+11-win.jar"
+-XX:+ShowCodeDetailsInExceptionMessages
+com.saveEX.input
